@@ -45,7 +45,7 @@ public class Switchs {
                 break;
 
             default:
-                System.out.println("Também não complica, né!");
+                System.out.println("Também não complica, né!!");
                 break;
         }
 
