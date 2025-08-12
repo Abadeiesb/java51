@@ -23,6 +23,7 @@ public class Switchs {
 
         //int nm1;
         //int nm2;
+        double calc = 0;
         System.out.println("Escreve os números: ");
         System.out.println("número 1: ");
         double result1 = scanner.nextDouble();
@@ -37,16 +38,18 @@ public class Switchs {
 
         switch (somaDosResults) {
             case 1:
-                System.out.println("Soma: " + (result1 + result2));
+               calc = result1 + result2;
                 break;
             case 2:
-                System.out.println("Divisão : " + (result1 / result2));
+                calc = result1 / result2;;
                 break;
 
             default:
                 System.out.println("Também não complica, né!");
                 break;
         }
+
+        System.out.println(calc);
 
 
 
