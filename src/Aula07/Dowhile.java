@@ -32,8 +32,7 @@ public class Dowhile {
                 case 4: System.out.println("Thank you for baking!");break;
                 default:
                     System.out.println("invalid choice");
-
-
+                    break;
 
 
             }
