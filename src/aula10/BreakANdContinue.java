@@ -5,10 +5,33 @@ import java.util.Scanner;
 public class BreakANdContinue {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int sum=0,n=0;
-        //sout("User 1");
+        int sum=0;
 
-        for(int i=1 ; i<=10;i++ ){
+        //sout("User 1");
+        boolean whileTrue = true;
+        int contador=0;
+
+        while(whileTrue){
+            sout("Input a value: ");
+            int n=s.nextInt();
+            sum+=n;
+            if(n==0){
+                break;
+            }
+            contador++;
+
+        }
+        sout("Valor atual da váriavel é: " + sum);
+
+
+
+    }
+
+    static void sout(String text){
+        System.out.println(text);
+    }
+
+       /* for(int i=1 ; i<=10;i++ ){
             sout("User 1");
             n = s.nextInt();
             sum += n;
@@ -17,14 +40,7 @@ public class BreakANdContinue {
             }
             sout("Valor de sum:"+sum);
             //sout(n);
-        }
-
-
-    }
-
-    static void sout(String text){
-        System.out.println(text);
-    }
+        }*/
 
            /* sout("User 1");
         int iputText1 = s.nextInt();
@@ -46,4 +62,5 @@ public class BreakANdContinue {
        int iputText9 = s.nextInt();
         sout("User 2");
         int iputText10 = s.nextInt();*/
+
 }
