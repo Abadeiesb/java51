@@ -12,6 +12,9 @@ public class BreakANdContinue {
             sout("User 1");
             n = s.nextInt();
             sum += n;
+            if (n == 0){
+                break;
+            }
             sout("Valor de sum:"+sum);
             //sout(n);
         }

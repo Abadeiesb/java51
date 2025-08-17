@@ -1,6 +1,6 @@
 package Aula07;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Whiles {
     public static void main(String[] args) {
