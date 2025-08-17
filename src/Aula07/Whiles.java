@@ -4,25 +4,31 @@ import java.util.Scanner;
 
 public class Whiles {
     public static void main(String[] args) {
-        Scanner s =  new Scanner(System.in);
+        //Scanner s =  new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        //int inputNumber=0;
 
-        int n, i=1,sum=0;
+        int loop = whilee();
+        System.out.println(" Valor da soma é: "+loop);
+    }
 
-        while(i <= 5){
-            System.out.println("Input the number: ");
-            n = s.nextInt();
-             sum = sum + n;
-             i += 1;/*
+    static int whilee() {
+        Scanner s2 = new Scanner(System.in);
+        System.out.println("soma: ");
+        int number1= s2.nextInt();
+        System.out.println("soma: ");
+        int number2= s2.nextInt();
+        System.out.println("soma: ");
+        int number3= s2.nextInt();
+        System.out.println("soma: ");
+        int number4= s2.nextInt();
+        System.out.println("soma: ");
+        int number5= s2.nextInt();
+        int i=1;
+        int sum= number1 + number2 + number3 + number4 + number5;
 
-             0 = 0 + 1
-             1 = 1 + 2
-             3 = 3 + 3
-             6 = 6 + 4
-             10 = 10 + 5 = 15
+           // System.out.println(sum);
 
-
-             */
-        }
-        System.out.println(sum);
+        return sum;
     }
 }
