@@ -12,7 +12,7 @@ public class forLoop {
         for(int i=n;i>=1;i--){
             f = f * i; //f = 1 * 5 f = 5 * 4 = 20 f= 20 * 3 = 60 f=60 f= 60 = 120 f= 120 * 1 = 120
             System.out.println("indice: "+i);
-            System.out.println("actorial: "+f);
+            System.out.println("factorial: "+f);
         }
        // System.out.println(f);
 
