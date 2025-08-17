@@ -1,10 +1,21 @@
 package aula10;
 
+import java.util.Scanner;
+
 public class forLoop {
 
     public static void main(String[] args) {
-        for(int i=1;  i <= 10; i++ ){
-            System.out.println("Número: " + i);
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n = s.nextInt();
+        int f = 1;
+        for(int i=n;i>=1;i--){
+            f = f * i; //f = 1 * 5 f = 5 * 4 = 20 f= 20 * 3 = 60 f=60 f= 60 = 120 f= 120 * 1 = 120
+            System.out.println("indice: "+i);
+            System.out.println("actorial: "+f);
         }
+       // System.out.println(f);
+
+
     }
 }
