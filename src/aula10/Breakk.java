@@ -2,7 +2,7 @@ package aula10;
 
 import java.util.Scanner;
 
-public class BreakANdContinue {
+public class Breakk {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int sum=0;
