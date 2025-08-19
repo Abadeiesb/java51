@@ -12,8 +12,11 @@ public class FactorialChallenger {
           factorial*=i;
           //System.out.println(i);
           System.out.println(factorial);
+
+          sumTotal+=factorial;
+
       }
 
-        System.out.println(factorial);
+        System.out.println(factorial+", "+ sumTotal);
     }
 }
