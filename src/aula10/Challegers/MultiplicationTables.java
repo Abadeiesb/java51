@@ -14,7 +14,7 @@ public class MultiplicationTables {
           total = inputValue1 * i;
 
             System.out.println(inputValue1+" x " + i  + " = "+ total);
-
+            for(int j=0;j<=i;j++);
         }
         System.out.println(soma);
     }
