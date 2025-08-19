@@ -1,4 +1,4 @@
-package aula10;
+package aula10.Challegers;
 
 import java.util.Scanner;
 
