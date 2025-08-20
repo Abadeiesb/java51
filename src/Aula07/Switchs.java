@@ -41,7 +41,7 @@ public class Switchs {
                calc = result1 + result2;
                 break;
             case 2:
-                calc = result1 / result2;;
+                calc = result1 / result2;
                 break;
 
             default:
