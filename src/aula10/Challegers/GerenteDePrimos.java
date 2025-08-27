@@ -10,5 +10,10 @@ public class GerenteDePrimos {
         return scanner.nextInt();
     }
 
+    public static void main(String[] args){
+        Scanner scannerInput = new Scanner(System.in);
+        int num1 = ObterNumero(scannerInput,"Digite o primeiro número primo: ");
+    }
+
 
 }
